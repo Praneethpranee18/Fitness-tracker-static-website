@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <header>
+        <h1>Fitness Tracker</h1>
+    </header>
+
+    <section id="workout-log">
+        <h2>Log Your Workout</h2>
+        <form id="workout-form">
+            <input type="text" id="exercise" placeholder="Exercise (e.g., Push-ups)" required>
+            <input type="text" id="sets" placeholder="Sets (e.g., 3)" required>
+            <input type="text" id="reps" placeholder="Reps (e.g., 15)" required>
+            <button type="submit">Log Workout</button>
+        </form>
+    </section>
+
+    <section id="log">
+        <h2>Your Workout Log</h2>
+        <ul id="workout-list">
+            <!-- Workout log items will appear here -->
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
